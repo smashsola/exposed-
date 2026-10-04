@@ -51,7 +51,7 @@ Arte individual de cada publicação em `assets/pixel/posts/` e retratos em `ass
 - `/privacidade.html`: política e exclusão confirmada somente de `exposed-orbita-v3`. Não usa `localStorage.clear()`. Outras abas do jogo recebem a alteração.
 - Resultado diário válido preservado: não há reinício do caso diário concluído. O registro por data permanece. Exclusão total pelo usuário pode remover esse registro; não há identificação invasiva ou bloqueio por pessoa.
 
-O jogo não envia respostas ou avaliações a serviços externos. Fontes e imagens são locais. A hospedagem configurada continua sendo Sites da OpenAI; executar localmente não publica alterações. Antes de publicar, preencher responsáveis/contato e confirmar condições de registros e retenção da hospedagem nos campos identificados da política.
+O jogo não envia respostas ou avaliações a serviços externos. Fontes e imagens são locais. A publicação principal usa Cloudflare Workers Static Assets; a publicação no Sites da OpenAI também permanece disponível. Executar localmente não publica alterações. Antes de publicar, preencher responsáveis/contato e confirmar condições de registros e retenção da hospedagem nos campos identificados da política.
 
 ## Verificação desta atualização
 
@@ -72,3 +72,8 @@ Verificação atual: 38 testes automatizados aprovados, build estático e fluxo 
 A interface usa áreas de toque maiores, menu inferior com espaço reservado para a área segura do aparelho e textos ajustados a telas estreitas. Posts têm uma única rolagem e botão de fechar fixo durante a leitura; as ações ficam no fluxo do conteúdo e não cobrem o botão de responder. O calendário, caderno e laboratório respeitam a altura disponível da janela. A visualização horizontal em telas até 950 px também usa a navegação móvel.
 
 Fluxo móvel conferido em 320×568, 360×640, 390×844, 430×932 e 844×390: calendário, rede, busca, perfil, post, caderno, solução, proteção, comparação e stories. O layout do post no desktop continua com duas colunas. Verificação feita em navegador Chromium com toque emulado; aparelhos físicos não foram usados nesta verificação.
+
+
+## Publicar na Cloudflare
+
+Com a conta Cloudflare autorizada no Wrangler, execute `npm run deploy:cloudflare`. O comando gera `dist/` e publica os arquivos estáticos no projeto `exposed-orbita`, definido em `wrangler.jsonc`. Não usa API de IA ou servidor de aplicação. As credenciais ficam fora do repositório; `.wrangler/` é ignorado. O código está em https://github.com/smashsola/exposed-.

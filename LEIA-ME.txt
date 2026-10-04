@@ -1,0 +1,18 @@
+EXPOSED! — versão local completa
+
+No Windows, dê dois cliques em ABRIR EXPOSED.cmd.
+Ele inicia o servidor local em segundo plano e abre o jogo no navegador.
+Repita isso depois de reiniciar o computador. Não é necessário instalar pacotes.
+
+O atalho Abrir EXPOSED.url só abre o endereço; não inicia o servidor.
+Não abra index.html ou dist/index.html diretamente: use o iniciador acima.
+
+Alternativa no terminal: node scripts/start.mjs
+Endereço: http://127.0.0.1:4173/
+
+Explorar a rede abre a Órbita na mesma aba; outra aba é opcional.
+Guarde pistas nos posts e use Responder com estas pistas no caderno
+para voltar ao enigma. Sua resposta e as pistas são conferidas juntas.
+
+O projeto está nesta pasta. dist contém a versão estática para hospedagem.
+O progresso pertence ao navegador. Estes iniciadores não apagam seus dados.

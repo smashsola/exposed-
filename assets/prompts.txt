@@ -1,0 +1,33 @@
+ASSET 1
+Use case: stylized-concept
+Asset type: pixel-art game environment for EXPOSED!, a fictional teen privacy detective social-network game.
+Primary request: wide 3:2 pixel-art fictional Brazilian coastal town at purple dusk, with a cafe, art school, skate plaza, warm glowing windows, little pedestrians, lush plants, and distant coast.
+Style/medium: polished cozy mysterious 16-bit game environment, crisp chunky pixels, expressive detailed environmental art.
+Color palette: dark purple and indigo, lavender, mint, warm golden accents.
+Composition: cohesive wide establishing scene, 3:2 landscape.
+Constraints: no text, no letters, no logos, no watermarks.
+
+ASSET 2
+Use case: stylized-concept
+Asset type: six character portraits contact sheet for EXPOSED!, fictional teen privacy detective social-network game.
+Primary request: precisely aligned 3 columns x 2 rows contact sheet, no gutters, six equal square headshot portraits of fictional Brazilian older teenagers, diverse skin tones, distinct outfits and hair. Row 1 left to right: Lia, curly dark hair and green shirt; Nico, short dark hair and orange hoodie; Bia, dark skin, purple afro and glasses. Row 2 left to right: Tom, tan skin and blue cap; Iris, light brown skin and pink bob; Caio, dark skin, short twists and cream shirt.
+Style/medium: high quality expressive chunky pixel art, crisp 16-bit game portraits.
+Composition: overall 3:2 landscape sheet. Each portrait centered within its exact equal square cell, uniform bust scale, flat different colorful backgrounds. All six grid cells meet edge-to-edge with absolutely no gutters or border.
+Constraints: no text, no names, no letters, no logos, no watermarks; entirely fictional people.
+
+ASSET 3
+Use case: stylized-concept
+Asset type: sixteen social photo tiles sprite sheet for EXPOSED!, fictional teen privacy detective social-network game.
+Primary request: precisely aligned 4 columns x 4 rows grid, no gutters, sixteen equal square cozy detailed pixel-art social snapshots. Row 1 left to right: cafe cup and notebook, art studio paint tools, skateboard by park bench, guitar practice bedroom. Row 2: telescope rooftop, pet cat by window, cafe storefront, theater backstage costumes. Row 3: boardgame table, library books, headphones music setup, beach sunset. Row 4: ceramics workshop, sneakers on colorful floor mural, homemade cake with candles, train station travel bag.
+Style/medium: high quality crisp chunky 16-bit pixel art, charming everyday slice-of-life details, cozy colorful lighting, consistent purple lavender mint and golden accents.
+Composition: square overall sheet, exact 4x4 equal square grid, every tile meets edge-to-edge with no gutters or borders. Each tile is a distinct complete scene.
+Constraints: no text, letters, numbers, logos, or watermarks; no real people. Notebook pages, books, storefront and station signs remain blank or abstract.
+Pixel crew (built-in imagegen): six fictional teen detective characters, one horizontal transparent sprite sheet, chunky pixel art, plum/lavender/yellow palette, notebooks/magnifier/camera, no text. Asset: assets/pixel-crew.png.
+Marina Kimberly avatar — built-in imagegen. Square head-and-shoulders chunky pixel-art avatar inspired by Marin Kitagawa; blonde hair with pink tips, cheerful smile, plain lavender crew-neck sweatshirt, fully covered shoulders/chest, no cosplay, plum background, yellow rim light, no text. File: assets/marina-kimberly.png.
+
+Nova direção de arte — ferramenta integrada imagegen:
+feed-a.png: 3x4 cenas distintas em pixel art, personagens próprios: Lia no café, gato Pingo, Bia nos bastidores, aniversário de Nico, mochila de Caio, cerâmica de Lia, turma de cerâmica, skate de Nico, Caio fotografando skate, estúdio de Tom, vídeo de Caio, poesia de Íris.
+feed-b.png: 3x4 cenas distintas: Bia lendo mural, camiseta de Caio, clube, cortina, Tom compondo para teatro, ensaio fotografado, memória de praia de Tom/Caio, vitória de Bia, peças de jogo, pasta de Lia, feira de Íris, turma apresentando projeto.
+feed-c.png: 4x4 cenas distintas: troca de livros de Íris, café/livros de Lia, livro de Caio, chá de Íris, pôr do sol de Nico, Bia lendo, guitarra de Tom, vaso de Lia, telescópio de Íris, fotografia de Caio, Marina desenhando, Marina/Lia no café, Marina com capa de aventura própria, Guto costurando, Guto pintando pássaro de madeira, Guto/Marina escolhendo tecidos.
+original-duo.png: 2 retratos originais lado a lado. Marina: cabelo curto cobre, óculos âmbar, sardas, presilha turquesa, jaqueta lilás. Guto: pele morena, cabelo escuro ondulado, óculos, camisa mostarda e avental petróleo. Designs próprios, sem reproduzir personagens existentes.
+Todos: pixel art vivo e expressivo, cenas adequadas para adolescentes, pessoas vestidas, sem textos, sem marcas de franquias. As artes anteriores inspiradas diretamente em anime foram retiradas do pacote.

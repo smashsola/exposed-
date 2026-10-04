@@ -1,0 +1,195 @@
+Evolua o projeto atual EXPOSED! para criar um jogo de enigmas investigativos sobre privacidade digital, inspirado na experiência de raciocínio do Enigmático, mas com uma mecânica própria baseada em uma mini rede social fictícia.
+
+REFERÊNCIAS:
+- Enigmático (referência de enigmas, dicas e sensação de descoberta): https://enigmati.co/
+- EXPOSED! atual (referência visual e ponto de partida do projeto): https://exposed-orbita.jjba489.chatgpt.site/
+
+Antes de programar, examine o repositório e, se possível, navegue pelos dois sites. Observe como o Enigmático apresenta seus desafios, ensina suas regras e oferece dicas, mas NÃO copie seus enigmas, textos, código ou identidade visual.
+
+NÃO REFAÇA O EXPOSED! DO ZERO. Preserve a estética atual, especialmente a interface da rede social inspirada no Instagram, sua responsividade e suas animações leves. Aproveite os componentes e funcionalidades existentes.
+
+CONCEITO PRINCIPAL
+
+Quero que o EXPOSED! seja um jogo em que o jogador recebe uma frase enigmática e precisa investigar uma mini rede social fictícia para descobrir sua resposta.
+
+A frase funciona como um mistério. A solução está escondida nas relações entre posts, fotografias, legendas, stories, comentários e perfis de personagens fictícios.
+
+Não quero um quiz com perguntas como "Qual é a escola dessa pessoa?". Quero enigmas que exijam interpretação, observação e conexão de pistas.
+
+O jogador deve ter aquela sensação de "COMO EU NÃO PERCEBI ISSO ANTES?" quando finalmente entender a frase.
+
+O objetivo educativo continua sendo mostrar como publicações aparentemente inocentes podem revelar informações pessoais quando analisadas em conjunto — e ensinar como reduzir essa exposição.
+
+1. PRESERVE E AMPLIE A MINI REDE SOCIAL
+
+O jogo deve continuar parecendo uma rede social fictícia de verdade, com:
+
+- Feed com publicações de diferentes personagens.
+- Vários perfis fictícios com personalidade própria.
+- Stories e destaques navegáveis.
+- Fotografias, legendas, carrosséis e comentários.
+- Perfis conectados por amizades, comentários e marcações.
+- Busca interna e navegação natural entre perfis.
+- Curtidas e outras interações locais que realmente funcionem.
+
+O jogador precisa poder explorar esse ambiente livremente, mesmo quando não estiver resolvendo um desafio.
+
+Não deixe a Lia como protagonista obrigatória. Ela pode continuar existindo como uma das personagens, mas não deve ser o centro de todo o jogo.
+
+Nem toda publicação deve conter uma pista. A rede social precisa ter conteúdos cotidianos que tornem seus personagens convincentes.
+
+2. MECÂNICA DOS ENIGMAS
+
+Cada enigma apresenta uma frase curta, misteriosa e original.
+
+O jogador lê a frase, entra na rede social, encontra pistas e tenta descobrir a resposta.
+
+Algumas frases podem esconder uma informação revelada por um personagem; outras podem indicar uma relação inesperada entre duas publicações; outras podem apresentar uma conclusão aparentemente óbvia que precisa ser questionada.
+
+A resposta não deve estar explícita em uma única legenda, nem depender de adivinhação aleatória.
+
+Crie enigmas com soluções claras e verificáveis. As pistas precisam existir de verdade nas publicações disponíveis ao jogador.
+
+Inspire-se na forma como o Enigmático faz o jogador interpretar a frase e descobrir suas regras, mas adapte essa experiência ao universo de posts e perfis do EXPOSED!.
+
+3. CATEGORIAS DE DIFICULDADE
+
+FÁCIL — OBSERVAÇÃO:
+O jogador aprende a reconhecer um detalhe relevante em uma publicação e a entender o que ele revela.
+
+MÉDIO — CONEXÃO:
+O jogador precisa combinar informações encontradas em duas ou mais publicações, comentários ou stories.
+
+DIFÍCIL — INTERPRETAÇÃO:
+O jogador precisa conectar várias evidências, considerar diferentes interpretações e perceber quando uma conclusão não pode ser afirmada com segurança.
+
+Não faça os difíceis dependerem de procurar uma foto perdida entre dezenas de publicações. A dificuldade deve estar no raciocínio.
+
+Crie enigmas difíceis com respostas concretas também, e não apenas desafios cuja solução é "não há evidências suficientes".
+
+4. REGRAS PRÓPRIAS DO JOGO
+
+Ensine três conceitos progressivamente:
+
+RASTRO: informação observável em uma publicação.
+
+CONEXÃO: descoberta feita ao relacionar diferentes rastros.
+
+SUPOSIÇÃO: conclusão que parece possível, mas não tem evidências suficientes.
+
+Essas regras precisam influenciar a jogabilidade, não ser apenas textos decorativos.
+
+Ensine cada conceito com uma interação curta durante os primeiros desafios. Evite um tutorial longo antes de começar a jogar.
+
+5. COMO O JOGADOR RESPONDE
+
+Crie um campo de resposta simples e um caderno de investigação que permita salvar as publicações e comentários utilizados como evidências.
+
+Não obrigue o jogador a escrever uma redação. Ele deve conseguir responder em poucas palavras e selecionar as pistas que sustentam sua conclusão.
+
+Implemente validação funcional, incluindo respostas equivalentes e pequenas variações de escrita previstas nos dados.
+
+Se o jogador acertar a conclusão, mas não tiver identificado as evidências necessárias, ofereça uma orientação curta para que ele complete o raciocínio.
+
+Não use uma IA fictícia para fingir que qualquer resposta foi analisada.
+
+6. DICAS PROGRESSIVAS
+
+Cada enigma deve ter três dicas específicas:
+
+- A primeira orienta onde procurar.
+- A segunda ajuda a perceber uma conexão.
+- A terceira aproxima o jogador da solução, sem simplesmente entregar a resposta.
+
+As dicas precisam ser escritas individualmente para cada enigma. Não repita mensagens genéricas como "observe melhor".
+
+O jogador pode usar dicas sem receber punições. Também pode revelar a solução se estiver travado, ver a explicação e continuar jogando.
+
+7. DESAFIO DIÁRIO + JOGO LIVRE
+
+Crie um ENIGMA DO DIA, igual para todos os jogadores na mesma data.
+
+Porém, NÃO LIMITE O JOGADOR A UM ENIGMA POR DIA.
+
+Crie também uma biblioteca de investigações com desafios disponíveis a qualquer momento, organizados por dificuldade.
+
+Depois de resolver um enigma, o jogador deve poder clicar em "Próximo enigma" e começar outro imediatamente.
+
+Ofereça também as opções "Escolher desafio", "Refazer" e "Voltar à rede".
+
+O enigma diário deve ser um motivo para voltar ao jogo, não uma barreira que impeça continuar jogando.
+
+Salve localmente os desafios concluídos, as pistas registradas e o progresso individual.
+
+8. CONTEÚDO INICIAL
+
+Crie inicialmente 15 enigmas completos e diferentes, com desafios fáceis, médios e difíceis.
+
+Todos precisam ter:
+- Frase enigmática original.
+- Resposta bem definida.
+- Publicações e pistas que realmente sustentem a solução.
+- Três dicas progressivas próprias.
+- Explicação final.
+- Uma pequena atividade educativa de proteção digital.
+
+Não crie 15 versões da mesma pergunta mudando apenas o nome do personagem.
+
+Varie a forma de raciocínio: observação de detalhes visuais, relação entre publicações, comentários que mudam a interpretação de um post, pistas espalhadas por perfis diferentes e situações em que uma informação parecia estar protegida, mas continuava exposta em outro lugar.
+
+Priorize enigmas bem elaborados e testáveis. Não aumente artificialmente a quantidade com desafios superficiais.
+
+9. REVELAÇÃO E APRENDIZADO
+
+Depois que o jogador resolver o enigma, destaque as publicações utilizadas e explique como a resposta foi descoberta.
+
+A revelação deve ser curta, clara e satisfatória, conectando a frase inicial às pistas encontradas.
+
+Em seguida, apresente uma pequena atividade interativa de proteção: ocultar um detalhe fictício, revisar uma legenda, retirar uma marcação desnecessária ou alterar a visibilidade de uma publicação.
+
+A mudança deve aparecer visualmente na rede social.
+
+Se a informação continuar exposta em outra publicação, o sistema deve reconhecer isso. Não use uma pontuação artificial que diminui independentemente das escolhas.
+
+O aprendizado deve acontecer por meio da descoberta e da interação, não de textos longos que interrompem o jogo.
+
+10. EXPERIÊNCIA E ESTÉTICA
+
+Preserve o visual atual do EXPOSED!, principalmente a rede social.
+
+Quero uma experiência agradável para crianças e adolescentes, com enigmas que façam pensar sem exigir longas sessões de leitura.
+
+Uma investigação pode durar poucos minutos, mas o jogador deve poder continuar explorando e resolvendo outras pelo tempo que desejar.
+
+Use animações leves, transições suaves e feedback visual satisfatório ao encontrar uma pista ou solucionar um enigma.
+
+Evite excesso de cards, badges, ícones decorativos, textos genéricos, números desnecessários e telas que pareçam uma atividade escolar.
+
+Remova zeros à esquerda nas numerações: use 1, 2 e 3, nunca 01, 02 e 03.
+
+11. SEGURANÇA E IMPLEMENTAÇÃO
+
+Utilize apenas personagens, instituições, locais, publicações e situações fictícias.
+
+O jogo não deve permitir investigar perfis reais, identificar endereços exatos ou obter informações privadas de pessoas reais.
+
+Não exija cadastro nem colete dados pessoais para jogar.
+
+O modo de enigmas deve funcionar sem API de IA paga. Estruture os dados dos personagens, posts, pistas, respostas, dicas e ações de proteção para permitir adicionar novos desafios posteriormente.
+
+Implemente as funcionalidades diretamente no repositório existente. Não entregue apenas um planejamento ou telas ilustrativas.
+
+Teste pelo menos um enigma de cada dificuldade do início ao fim, incluindo a localização das pistas, validação da resposta, uso das dicas e atividade de proteção.
+
+Execute o build, corrija os erros e informe o que foi implementado e o que ainda falta.
+
+RESULTADO FINAL
+
+O EXPOSED! deve unir duas experiências:
+
+1. Uma mini rede social fictícia, visualmente convincente e divertida de explorar.
+2. Um jogo de enigmas com a sensação de raciocínio e descoberta do Enigmático, em que as respostas estão escondidas nas relações entre as publicações.
+
+O jogador pode resolver o enigma do dia ou jogar vários desafios seguidos. Ao descobrir a resposta, entende como informações aparentemente comuns podem revelar mais do que alguém imaginava e aprende a proteger melhor sua privacidade.
+
+Não quero apenas um jogo sobre segurança digital. Quero um jogo de investigação que seja divertido por si só e que ensine segurança digital enquanto a pessoa joga.
